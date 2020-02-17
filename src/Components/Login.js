@@ -14,8 +14,8 @@ export default class Login extends React.Component {
 
         return (
 
-            <div class="hero-image"  style={{height: "100%"}}>
-                <div class="hero-text"  style={{height: "100%"}}>
+            <div className="hero-image"  style={{height: "100%"}}>
+                <div className="hero-text"  style={{height: "100%"}}>
                     <LoginCard/>
                 </div>
             </div>

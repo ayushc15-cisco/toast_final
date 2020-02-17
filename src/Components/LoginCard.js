@@ -75,38 +75,38 @@ export default class LoginCard extends React.Component {
 
     return (
 
-        <html >
+      
 
-
+        <div>
             <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
-            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"></link>
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossOrigin="anonymous"></link>
            
             <link href="https://fonts.googleapis.com/css?family=Bungee+Inline|Girassol|Rye&display=swap" rel="stylesheet"/>
-            <div class="flex-container" style={container_styles}>
-                <img style={logo_style} class="card-img-top" src="https://www.gaar.com/images/uploads/event-logo-toastmasters.png" alt="Card image" />
-                <div class="card text-center" style={styles} >
-                    <div class="card-header bg-dark">
+            <div className="flex-container" style={container_styles}>
+                <img style={logo_style} className="card-img-top" src="https://www.gaar.com/images/uploads/event-logo-toastmasters.png" alt="Card image" />
+                <div className="card text-center" style={styles} >
+                    <div className="card-header bg-dark">
                         <p style={header_style}>Cisco Communications Club</p>
                        
                     </div>
 
-                    <div class="card bg-secondary text-white ">
-                        <div class="card-body">
+                    <div className="card bg-secondary text-white ">
+                        <div className="card-body">
 
                             <form>
-                                <div class="form-group">
-                                    <button type="button" class="btn btn-dark float-left" style={{ marginBottom: "5px" ,fontSize: "30px", fontFamily: `'Girassol', cursive`}}><i class="material-icons">contacts</i> Email</button>
-                                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" data-toggle="tooltip" data-placement="top" title="Enter Registered Email ID" />
-                                    <small id="emailHelp" class="form-text text-muted text-left">Enter Your Organisation's Email ID</small>
+                                <div className="form-group">
+                                    <button type="button" className="btn btn-dark float-left" style={{ marginBottom: "5px" ,fontSize: "30px", fontFamily: `'Girassol', cursive`}}><i className="material-icons">contacts</i> Email</button>
+                                    <input type="email" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" data-toggle="tooltip" data-placement="top" title="Enter Registered Email ID" />
+                                    <small id="emailHelp" className="form-text text-muted text-left">Enter Your Organisation's Email ID</small>
                                 </div>
-                                <div class="form-group">
-                                    <button type="button" class="btn btn-dark float-left" style={{ marginBottom: "5px" ,fontSize: "30px", fontFamily: `'Girassol', cursive`}}> <i class="material-icons">fingerprint</i> Password </button>
-                                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password" />
+                                <div className="form-group">
+                                    <button type="button" className="btn btn-dark float-left" style={{ marginBottom: "5px" ,fontSize: "30px", fontFamily: `'Girassol', cursive`}}> <i className="material-icons">fingerprint</i> Password </button>
+                                    <input type="password" className="form-control" id="exampleInputPassword1" placeholder="Password" />
                                 </div>
                                 
                                 <div display="flex" style={{flexWrap: "wrap"}}>
-                                <button  type="submit" class="btn btn-sm btn-dark float-left" style={{margin: "10px"}}><i class="material-icons" style={{fontSize: "30px"}}>lock</i> <p style={{fontSize: "20px", fontFamily: `'Bungee Inline', cursive`}}>Forgot Password?</p>  </button>
-                                <button type="submit" class="btn btn-lg btn-dark float-right" style={{margin: "10px"}}><p style={{fontSize: "20px", fontFamily: `'Bungee Inline', cursive`}}>Login</p> <i class="material-icons" >input</i>   </button>
+                                <button  type="submit" className="btn btn-sm btn-dark float-left" style={{margin: "10px"}}><i className="material-icons" style={{fontSize: "30px"}}>lock</i> <p style={{fontSize: "20px", fontFamily: `'Bungee Inline', cursive`}}>Forgot Password?</p>  </button>
+                                <button type="submit" className="btn btn-lg btn-dark float-right" style={{margin: "10px"}}><p style={{fontSize: "20px", fontFamily: `'Bungee Inline', cursive`}}>Login</p> <i className="material-icons" >input</i>   </button>
                                 </div>
 
                             </form>
@@ -116,8 +116,8 @@ export default class LoginCard extends React.Component {
                     </div>
                 </div>
             </div>
-
-        </html>
+        </div>
+        
     )
 
     };
